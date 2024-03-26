@@ -1,7 +1,15 @@
-import Example2 from "./study/Example2"
+import { RouterProvider } from 'react-router-dom';
+import studyRouter from './router';
+
+import Say from './study/Say';
 
 function App() {
-  return <Example2 />
+  return (
+    <>
+      <RouterProvider router={studyRouter} />
+      <Say></Say>
+    </>
+  );
 }
 
-export default App
+export default App;

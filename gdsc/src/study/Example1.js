@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-function FirstExample() {
+function Example1() {
   const [channame, setChangename] = useState('');
 
   useEffect(() => {
@@ -24,4 +24,4 @@ function FirstExample() {
   );
 }
 
-export default FirstExample;
+export default Example1;
