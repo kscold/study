@@ -1,14 +1,12 @@
 import { RouterProvider } from 'react-router-dom';
-import studyRouter from './router';
-
-import Say from './study/Say';
-import EventPractice from './study/EventPractice';
+import Router from './router';
+import IterationSample from './study/IterationSample';
 
 function App() {
   return (
     <>
-      <RouterProvider router={studyRouter} />
-      <EventPractice />
+      <RouterProvider router={Router} />
+      <IterationSample />
     </>
   );
 }

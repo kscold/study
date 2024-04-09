@@ -6,7 +6,7 @@ const Example1 = lazy(() => import('./study/Example1'));
 const Example2 = lazy(() => import('./study/Example2'));
 const Example3 = lazy(() => import('./study/MyComponent'));
 
-const studyRouter = createBrowserRouter([
+const Router = createBrowserRouter([
   {
     path: 'study1',
     element: (
@@ -33,4 +33,4 @@ const studyRouter = createBrowserRouter([
   },
 ]);
 
-export default studyRouter;
+export default Router;
